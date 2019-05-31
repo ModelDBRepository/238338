@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>ReadMe.md</title></head>
+<body><h1>Model of Synchronized Oscillations in the Choroid Plexus</h1>
+<p>This is a model for the 24-hour synchronized rhythms of the <em>clock</em> gene expression in the choroid plexus (CP), used in</p>
+<p>Myung J, Schmal C, Hong S, Tsukizawa Y, Rose P, Zhang Y, Holtzman MJ, De Schutter E, Herzel H (2018) The Choroid Plexus is an Important Circadian Clock Component. <em>Nat Commun</em>, <em>in press</em>.</p>
+<p>Here we present three example models for two distinct configurations, contained in the following directories:</p>
+<p>&nbsp;</p>
+<h2>1. 2D_Poincare_Simulation</h2>
+<p>This is a model used for Fig. S11c, implemented in Python. The main file of this simulation <code>2DPoincareSimulation.py</code> and requires packages,</p>
+<ul>
+<li>numpy,</li>
+<li>scipy,</li>
+<li>matplotlib.</li>
+
+</ul>
+<p>The simulation is self-contained and generates Fig. S11c of the paper.</p>
+<p><img src='.\getModelFile.cshtml?model=238338&amp;AttrID=23&amp;file=%5cCPmodel\.\AverageOver100Runs.png' alt='AverageOver100Runs' /></p>
+<p>&nbsp;</p>
+<h2>2. Simulation_Fig_S13</h2>
+<p>This is a model for Fig. S13 and written in MATLAB. The main program is  <code>Simulation_Fig_S13.m</code>, and running this generates an output <code>fig_s13_data.mat</code>. To generate Fig. S13 from this data, use <code>Plot_Fig_S13.ipynb</code> that is a <a href='http://jupyter.org'>Jupyter notebook</a> written in <a href='https://julialang.org'>Julia language</a>.</p>
+<p><img src='.\getModelFile.cshtml?model=238338&amp;AttrID=23&amp;file=%5cCPmodel\.\phasedev_simulation40_TwistedVsNontwisted.png' alt='phasedev_simulation40_TwistedVsNontwisted' /></p>
+<p>&nbsp;</p>
+<h2>3. CP_TwistChain_Simulation</h2>
+<p>This is a smaller, one-dimensional chain model implemented in Mathematica, which is used for Fig. 3 in the paper.</p>
+<p>&nbsp;</p>
+<hr />
+<p><em>Written by Sungho Hong, Computational Neuroscience Unit, Okinawa Institute of Science and Technology, Japan.</em></p>
+<p><em>February 9, 2018</em></p>
+<p><em>Correspondence: Jihwan Myung (<a href='mailto:jhmyung@gmail.com' target='_blank' >jhmyung@gmail.com</a>), Graduate Institute of Humanities in Medicine, Taipei Medical University, Taiwan.</em></p>
+</body>
+</html>
